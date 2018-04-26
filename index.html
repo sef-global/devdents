@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- JQuery min -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -30,14 +32,18 @@
 
 
     <div class = "container">
-      <h3>Students</h3>
+    <br/>  
+      <div class="input-field col s1">
+        <input id="last_name" type="text" class="validate">
+        <label for="last_name">Enter Keyword...</label>
+      </div>
+      <div id="studentsLoader"></div>
     </div>
 
     <footer class="page-footer">
         <div class="footer-copyright">
           <div class="container">
           © 2018 SEF DevDants
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
           </div>
         </div>
       </footer>

@@ -1,6 +1,17 @@
 [
     {
-        "username" : "shalithasuranga",
+        "name" : "Shalitha Suranga",
+        "githubUsername" : "shalithasuranga",
         "university" : "UWU"
+    },
+    {
+        "name" : "Amal Rasika",
+        "githubUsername" : "maginz2t",
+        "university" : "SUSL"
+    },
+    {
+        "name" : "Nadika Perera",
+        "githubUsername" : "nadee24u",
+        "university" : "IIT"
     }
 ]
